@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4278D0</color>
+    <color name="colorPrimaryDark">#252422</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="appBackground">#252422</color>
+
+    <color name="gradientStart">#4278D0</color>
+    <color name="gradientCenter">#4278D0</color>
+    <color name="gradientLast">#3042AE</color>
+
+    <color name="lightGrayColor">#D3D3D3</color>
+    <color name="white">#ffffff</color>
+
+</resources>

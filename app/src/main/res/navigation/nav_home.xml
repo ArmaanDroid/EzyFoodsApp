@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeFragmentDestination">
+
+    <fragment
+        android:id="@+id/loginSignupFragmentDestination"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.loginSignup.LoginSignupFragment"
+        android:label="fragment_login_signup"
+        tools:layout="@layout/fragment_login_signup" />
+    <fragment
+        android:id="@+id/homeFragmentDestination"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_login_signup"
+            app:destination="@id/loginSignupFragmentDestination" />
+    </fragment>
+    <fragment
+        android:id="@+id/eatFragmentDestintation"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.eat.EatFragment"
+        android:label="fragment_eat"
+        tools:layout="@layout/fragment_eat">
+        <action
+            android:id="@+id/action_open_dish_details"
+            app:destination="@id/dishDetailsFragmentDestination" />
+    </fragment>
+    <fragment
+        android:id="@+id/whatYouCookFragmentDestination"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.uploadDish.WhatYouCookFragment"
+        android:label="fragment_what_you_cook"
+        tools:layout="@layout/fragment_what_you_cook" />
+    <fragment
+        android:id="@+id/cartFragmentDestination"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.cart.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/notificationFragmentDestination"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.notifications.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/dishDetailsFragmentDestination"
+        android:name="sanguinebits.com.ezyfoods.home.fragments.dishDetail.DishDetailsFragment"
+        android:label="fragment_dish_details"
+        tools:layout="@layout/fragment_dish_details" >
+        <action
+            android:id="@+id/action_detail_to_cartFragment"
+            app:destination="@id/cartFragmentDestination"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

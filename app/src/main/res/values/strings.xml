@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Ezy Foods</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="upload_image"><u>Upload Image</u></string>
+    <string name="home">Home</string>
+    <string name="eat">Eat</string>
+    <string name="cook">Cook</string>
+    <string name="mycart">My Cart</string>
+    <string name="taste_of_your_neighbourhood">Taste Of Your Neighbourhood</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="notifications">Notifications</string>
+    <string name="error_making_request">Error Processing your request</string>
+    <string name="please_wait">Please Wait</string>
+
+    <string name="choose_from">Choose From</string>
+    <string name="phone_s_gallery">Phone\'s Gallery</string>
+    <string name="take_a_pic">Take a Pic</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_orders">My Orders</string>
+    <string name="logout">Logout</string>
+    <string name="press_again_to_exit">Press again to Exit</string>
+    <string name="review">Review</string>
+    <string name="channel_description">Order</string>
+    <string name="forgot_pwd">Forgot Password</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="change_password">Change Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="currentPassword">Current Password</string>
+    <string name="current_password_cannot_empty">Please enter current password</string>
+    <string name="password_does_not_match">New password and confirm password does\'t match.</string>
+    <string name="password_new_password_same">Current password and new password same.</string>
+    <string name="new_password_cannt_empty">Please enter new password</string>
+    <string name="ok">Ok</string>
+    <string name="permission_denied">Permission Denied</string>
+
+    <string name="locationPermission">Without location permission the app is unable to find the near by people for you.So please allow this permission</string>
+    <string name="storagePermission">Without storage permission the app is unable to get the images from the phone.So please allow this permission</string>
+    <string name="cameraPermission">Without camera permission the app is unable to get the images from the phone camera.So please allow this permission</string>
+    <string name="order">Order</string>
+    <string name="continue_shopping"><u>Continue Shopping</u></string>
+
+
+</resources>

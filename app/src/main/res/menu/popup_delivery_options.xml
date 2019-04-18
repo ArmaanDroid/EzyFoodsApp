@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/free"
+        android:title="Pickup free" />
+
+    <item
+        android:id="@+id/item12to2"
+        android:title="$2 b/w 12-2" />
+
+    <item
+        android:id="@+id/item2to4"
+        android:title="$2 b/w 2-4" />
+    <item
+        android:id="@+id/item14to7"
+        android:title="$2 b/w 4-7" />
+
+    <item
+        android:id="@+id/item7to9"
+        android:title="$2 b/w 7-9" />
+</menu>

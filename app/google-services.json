@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "1032554834956",
+    "firebase_url": "https://bamboom-213fc.firebaseio.com",
+    "project_id": "bamboom-213fc",
+    "storage_bucket": "bamboom-213fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032554834956:android:d51f926eca303182",
+        "android_client_info": {
+          "package_name": "com.developed.julefrokost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032554834956-1d1svr4phutteg5l5fsfhaaes2gkhfft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developed.julefrokost",
+            "certificate_hash": "f36034b0975b62723df4cd48bc45cb42c8a1c74e"
+          }
+        },
+        {
+          "client_id": "1032554834956-g4e5a5q61th4daqfahmsk0p8c37hkv2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developed.julefrokost",
+            "certificate_hash": "d73cc89795387ce54a1b336199783171816e0e7b"
+          }
+        },
+        {
+          "client_id": "1032554834956-sdct6peh580rujkc36gv87i6rfae82m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn84NFIN8u8BrUTFOORNtWSWI_G5fJQ7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032554834956-sdct6peh580rujkc36gv87i6rfae82m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032554834956:android:1ca16ff3f2f6d93a",
+        "android_client_info": {
+          "package_name": "sanguinebits.com.ezyfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032554834956-sdct6peh580rujkc36gv87i6rfae82m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn84NFIN8u8BrUTFOORNtWSWI_G5fJQ7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
